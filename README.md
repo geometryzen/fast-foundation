@@ -1,8 +1,8 @@
-# my-lib is a TypeScript Library template
+# @geometryzen/fast-foundation
 
-[![version](https://img.shields.io/npm/v/@geometryzen/my-lib.svg)](https://www.npmjs.com/package/@geometryzen/my-lib) 
+[![version](https://img.shields.io/npm/v/@geometryzen/fast-foundation.svg)](https://www.npmjs.com/package/@geometryzen/fast-foundation) 
 
-[![npm downloads](https://img.shields.io/npm/dm/@geometryzen/my-lib.svg)](https://npm-stat.com/charts.html?package=@geometryzen/my-lib&from=2022-09-01)
+[![npm downloads](https://img.shields.io/npm/dm/@geometryzen/fast-foundation.svg)](https://npm-stat.com/charts.html?package=@geometryzen/fast-foundation&from=2022-09-01)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
