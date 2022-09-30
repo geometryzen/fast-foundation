@@ -1,2 +1,3 @@
 
-export { DesignSystem } from "@microsoft/fast-foundation";
+export * from "@microsoft/fast-foundation";
+
