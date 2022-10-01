@@ -16,6 +16,40 @@
 <section class="tsd-panel tsd-comment">
 <div class="tsd-comment tsd-typography"><p>A Switch Custom HTML Element.
 Implements <a href="https://www.w3.org/TR/wai-aria-1.1/#menuitem">ARIA menuitem</a>, <a href="https://www.w3.org/TR/wai-aria-1.1/#menuitemcheckbox">ARIA menuitemcheckbox</a>, or <a href="https://www.w3.org/TR/wai-aria-1.1/#menuitemradio">ARIA menuitemradio</a>.</p>
+
+<h3>Slot</h3><p>checked-indicator - The checked indicator</p>
+
+<h3>Slot</h3><p>radio-indicator - The radio indicator</p>
+
+<h3>Slot</h3><p>start - Content which can be provided before the menu item content</p>
+
+<h3>Slot</h3><p>end - Content which can be provided after the menu item content</p>
+
+<h3>Slot</h3><ul>
+<li>The default slot for menu item content</li>
+</ul>
+
+<h3>Slot</h3><p>expand-collapse-indicator - The expand/collapse indicator</p>
+
+<h3>Slot</h3><p>submenu - Used to nest menu&#39;s within menu items</p>
+
+<h3>Csspart</h3><p>input-container - The element representing the visual checked or radio indicator</p>
+
+<h3>Csspart</h3><p>checkbox - The element wrapping the <code>menuitemcheckbox</code> indicator</p>
+
+<h3>Csspart</h3><p>radio - The element wrapping the <code>menuitemradio</code> indicator</p>
+
+<h3>Csspart</h3><p>content - The element wrapping the menu item content</p>
+
+<h3>Csspart</h3><p>expand-collapse-glyph-container - The element wrapping the expand collapse element</p>
+
+<h3>Csspart</h3><p>expand-collapse - The expand/collapse element</p>
+
+<h3>Csspart</h3><p>submenu-region - The container for the submenu, used for positioning</p>
+
+<h3>Fires</h3><p>expanded-change - Fires a custom &#39;expanded-change&#39; event when the expanded state changes</p>
+
+<h3>Fires</h3><p>change - Fires a custom &#39;change&#39; event when a non-submenu item with a role of <code>menuitemcheckbox</code>, <code>menuitemradio</code>, or <code>menuitem</code> is invoked</p>
 </div></section>
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
@@ -25,8 +59,8 @@ Implements <a href="https://www.w3.org/TR/wai-aria-1.1/#menuitem">ARIA menuitem<
 <ul class="tsd-hierarchy">
 <li><span class="target">MenuItem</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5020</li>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5135</li></ul></aside>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5717</li>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5832</li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -789,7 +823,7 @@ this FASTElement.</p>
 <h3>Remarks</h3><p>HTML Attribute: checked</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5057</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5754</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="childElementCount" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>child<wbr/>Element<wbr/>Count</span><a href="#childElementCount" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">child<wbr/>Element<wbr/>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
@@ -864,7 +898,7 @@ this FASTElement.</p>
 <div class="tsd-comment tsd-typography"><p>Track current direction to pass to the anchored region</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5074</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5771</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="dataset" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>dataset</span><a href="#dataset" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">dataset<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DOMStringMap</span></div><aside class="tsd-sources">
@@ -885,7 +919,7 @@ this FASTElement.</p>
 <h3>Remarks</h3><p>HTML Attribute: disabled</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5028</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5725</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="draggable" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>draggable</span><a href="#draggable" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">draggable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
@@ -897,13 +931,13 @@ this FASTElement.</p>
 <div class="tsd-signature">end<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLSlotElement</span></div><aside class="tsd-sources">
 <p>Inherited from <a href="StartEnd.html">StartEnd</a>.<a href="StartEnd.html#end">end</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:7328</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:8254</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="endContainer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>end<wbr/>Container</span><a href="#endContainer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">end<wbr/>Container<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLSpanElement</span></div><aside class="tsd-sources">
 <p>Inherited from <a href="StartEnd.html">StartEnd</a>.<a href="StartEnd.html#endContainer">endContainer</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:7329</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:8255</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="enterKeyHint" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>enter<wbr/>Key<wbr/>Hint</span><a href="#enterKeyHint" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">enter<wbr/>Key<wbr/>Hint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
@@ -918,7 +952,7 @@ this FASTElement.</p>
 <h3>Remarks</h3><p>HTML Attribute: expanded</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5036</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5733</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="firstChild" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>first<wbr/>Child</span><a href="#firstChild" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">first<wbr/>Child<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ChildNode</span></div>
@@ -952,7 +986,7 @@ this FASTElement.</p>
 <h5>e: <span class="tsd-signature-type">MouseEvent</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5096</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5793</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="handleMenuItemKeyDown" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>handle<wbr/>Menu<wbr/>Item<wbr/>Key<wbr/>Down</span><a href="#handleMenuItemKeyDown" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">handle<wbr/>Menu<wbr/>Item<wbr/>Key<wbr/>Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span></div>
@@ -970,7 +1004,7 @@ this FASTElement.</p>
 <h5>e: <span class="tsd-signature-type">KeyboardEvent</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5092</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5789</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="handleMouseOut" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>handle<wbr/>Mouse<wbr/>Out</span><a href="#handleMouseOut" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">handle<wbr/>Mouse<wbr/>Out<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MouseEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span></div>
@@ -988,7 +1022,7 @@ this FASTElement.</p>
 <h5>e: <span class="tsd-signature-type">MouseEvent</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5108</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5805</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="handleMouseOver" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>handle<wbr/>Mouse<wbr/>Over</span><a href="#handleMouseOver" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">handle<wbr/>Mouse<wbr/>Over<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MouseEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span></div>
@@ -1006,12 +1040,12 @@ this FASTElement.</p>
 <h5>e: <span class="tsd-signature-type">MouseEvent</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5104</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5801</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="hasSubmenu" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>has<wbr/>Submenu</span><a href="#hasSubmenu" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">has<wbr/>Submenu<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5068</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5765</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="hidden" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>hidden</span><a href="#hidden" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">hidden<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
@@ -3394,13 +3428,13 @@ this FASTElement.</p>
 <li>Defined in node_modules/typescript/lib/lib.dom.d.ts:9957</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="role" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>role</span><a href="#role" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature">role<span class="tsd-signature-symbol">:</span> <a href="../enums/MenuItemRole.html" class="tsd-signature-type" data-tsd-kind="Enumeration">MenuItemRole</a></div>
+<div class="tsd-signature">role<span class="tsd-signature-symbol">:</span> <a href="../variables/MenuItemRole-1.html" class="tsd-signature-type" data-tsd-kind="Variable">MenuItemRole</a></div>
 <div class="tsd-comment tsd-typography"><p>The role of the element.</p>
 
 <h3>Remarks</h3><p>HTML Attribute: role</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5049</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5746</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="scrollHeight" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>scroll<wbr/>Height</span><a href="#scrollHeight" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">scroll<wbr/>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
@@ -3452,18 +3486,18 @@ this FASTElement.</p>
 <div class="tsd-signature">start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLSlotElement</span></div><aside class="tsd-sources">
 <p>Inherited from <a href="StartEnd.html">StartEnd</a>.<a href="StartEnd.html#start">start</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:7325</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:8251</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="startColumnCount" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>start<wbr/>Column<wbr/>Count</span><a href="#startColumnCount" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">start<wbr/>Column<wbr/>Count<span class="tsd-signature-symbol">:</span> <a href="../types/MenuItemColumnCount.html" class="tsd-signature-type" data-tsd-kind="Type alias">MenuItemColumnCount</a></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5041</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5738</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="startContainer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>start<wbr/>Container</span><a href="#startContainer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">start<wbr/>Container<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLSpanElement</span></div><aside class="tsd-sources">
 <p>Inherited from <a href="StartEnd.html">StartEnd</a>.<a href="StartEnd.html#startContainer">startContainer</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:7326</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:8252</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="style" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagReadonly">Readonly</code> <span>style</span><a href="#style" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">style<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CSSStyleDeclaration</span></div><aside class="tsd-sources">
@@ -3479,12 +3513,12 @@ the associated presentation or custom element definition.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#styles">styles</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4008</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4395</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="submenu" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>submenu</span><a href="#submenu" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">submenu<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Element</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5078</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5775</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="submenuLoaded" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>submenu<wbr/>Loaded</span><a href="#submenuLoaded" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">submenu<wbr/>Loaded<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
@@ -3497,14 +3531,14 @@ the associated presentation or custom element definition.</p>
 <li class="tsd-description"><code class="tsd-tag ts-flagInternal">Internal</code> 
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4></li></ul></li></ul></div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5100</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5797</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external"><a id="submenuRegion" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>submenu<wbr/>Region</span><a href="#submenuRegion" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">submenu<wbr/>Region<span class="tsd-signature-symbol">:</span> <a href="AnchoredRegion.html" class="tsd-signature-type" data-tsd-kind="Class">AnchoredRegion</a></div>
 <div class="tsd-comment tsd-typography"><p>reference to the anchored region</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5064</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5761</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="tabIndex" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>tab<wbr/>Index</span><a href="#tabIndex" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">tab<wbr/>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div><aside class="tsd-sources">
@@ -3528,7 +3562,7 @@ the associated presentation or custom element definition.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#template">template</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4000</li></ul></aside></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4387</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="textContent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>text<wbr/>Content</span><a href="#textContent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <div class="tsd-signature">text<wbr/>Content<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
@@ -3560,7 +3594,7 @@ for the current component.</p>
 <h4 class="tsd-returns-title">Returns <a href="../variables/ComponentPresentation-1.html" class="tsd-signature-type" data-tsd-kind="Variable">ComponentPresentation</a></h4><aside class="tsd-sources">
 <p>Inherited from FoundationElement.$presentation</p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:3993</li></ul></aside></li></ul></section></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4380</li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="_emit" class="tsd-anchor"></a>
@@ -3893,7 +3927,7 @@ attribute of FASTElement has a value change.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Overrides <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#connectedCallback">connectedCallback</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5084</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5781</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="contains" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>contains</span><a href="#contains" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -3918,7 +3952,7 @@ attribute of FASTElement has a value change.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Overrides <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#disconnectedCallback">disconnectedCallback</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5088</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:5785</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="dispatchEvent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>dispatch<wbr/>Event</span><a href="#dispatchEvent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -4184,7 +4218,7 @@ attribute of FASTElement has a value change.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="StartEnd.html">StartEnd</a>.<a href="StartEnd.html#handleEndContentChange">handleEndContentChange</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:7330</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:8256</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="handleStartContentChange" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>handle<wbr/>Start<wbr/>Content<wbr/>Change</span><a href="#handleStartContentChange" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -4193,7 +4227,7 @@ attribute of FASTElement has a value change.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="StartEnd.html">StartEnd</a>.<a href="StartEnd.html#handleStartContentChange">handleStartContentChange</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:7327</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:8253</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="hasAttribute" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>has<wbr/>Attribute</span><a href="#hasAttribute" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -4962,7 +4996,7 @@ attribute of FASTElement has a value change.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#stylesChanged">stylesChanged</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4009</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4396</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-inherited tsd-is-external"><a id="templateChanged" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagProtected">Protected</code> <span>template<wbr/>Changed</span><a href="#templateChanged" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-inherited tsd-is-external">
@@ -4971,7 +5005,7 @@ attribute of FASTElement has a value change.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#templateChanged">templateChanged</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4001</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4388</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="toggleAttribute" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>toggle<wbr/>Attribute</span><a href="#toggleAttribute" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
@@ -5048,7 +5082,7 @@ function for.</p>
 <h4 class="tsd-returns-title">Returns <a href="FoundationElementRegistry.html" class="tsd-signature-type" data-tsd-kind="Class">FoundationElementRegistry</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type" data-tsd-kind="Type parameter">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type" data-tsd-kind="Type parameter">K</span><span class="tsd-signature-symbol">&gt;</span></h4></li></ul></li></ul><aside class="tsd-sources">
 <p>Inherited from <a href="FoundationElement.html">FoundationElement</a>.<a href="FoundationElement.html#compose">compose</a></p>
 <ul>
-<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4024</li></ul></aside></li></ul></section>
+<li>Defined in node_modules/@microsoft/fast-foundation/dist/fast-foundation.d.ts:4411</li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a id="define" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <span>define</span><a href="#define" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
